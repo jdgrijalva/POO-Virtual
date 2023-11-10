@@ -1,0 +1,7 @@
+git init: Crear repositorio
+git status: Ver estado de los archivos
+git config --global user.name "username": Es para registrar un nuevo usuario a git
+git config --global user.email "myemail@example.com": Es para registrar un nuevo correo a git
+git help: Genera lista de comandos
+git add: Agregar todos los archivos con cambios
+git commit -m "commentario": Crear commmit
