@@ -1,0 +1,4 @@
+Jueves - 1
+Realizar todos los códigos de las diapositivas en dos variantes:
+	1. Códigos con errores
+	2. Códigos sin errores
