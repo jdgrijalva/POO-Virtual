@@ -1,13 +1,21 @@
-public class codigo5_Correcto {
-    String motorGasolina;
-    String motorElectrico;
+public class codigo5_Incorrecto {
 
+    public static void main(String[] args) {
+        class motorElectrico {
+            String descripcion = "Este motor usa electricidad";
+        }
 
-    public codigo5_Correcto(String motorElectrico, String motorGasolina) {
-        this.motorGasolina = motorGasolina;
-        this.motorElectrico = motorElectrico;
+        class motorGasolina {
+            String descripcion = "Este motor usa gasolina";
+        }
+
+        motorElectrico motorElectrico = new motorElectrico();
+        System.out.println(motorElectrico.descripcion);
+        motorGasolina motorGasolina = new motorGasolina();
+        System.out.println(motorGasolina.descripcion);
+
     }
 
-    codigo5_Correcto auto = new codigo5_Correcto(null, "El motor funciona con electricidad");
-    
+    //El código no implementa el polimorfismo, hacerlo de esta manera es poco eficiente, tosco, y se complica la lectura y
+    //futura modificación del codigo.
 }
